@@ -1,15 +1,16 @@
 Getting and Cleaning Data Course Project 
 ========================================================
 
-### *This file includes descriptions of all major steps taken in obtaining and cleaning the data set for the course project.  All code is also included herein, making redundant the 'run_analysis.R' file that was also required in the project description.*
+### *This file includes descriptions of all steps taken in obtaining and cleaning the data set for the course project.  All related code is also included here, making redundant the 'run_analysis.R' file that was also required in the project description.  This file does NOT include code used to create the CodeBook.  Such code (as well as descriptions re. its function) are included both in 'CodeBook.md' and 'run_analysis.R'.  See "Associated files" immediately below for a map of how all files interrelate.*
 
 ### **Associated files:**
-* **run_analysis.R** includes the same code included in this file along with brief descriptions of each step in the analysis.
-* **tidyData.txt** is the 'second, independent tidy data set' described in item 5. of the project description.
+* **run_analysis.R** includes the same code included in this file along with the code used to construct the CodeBook.
+* **tidyDataOriginalVarNames.txt** is one version of the 'second, independent tidy data set' described in item 5. of the project description.  It includes the original (syntactically invalid, in R) variable names.
+* **tidyDataValidVarNames.txt** is a second version of the 'second, independent tidy data set' described in item 5. of the project description.  It includes syntactically valid (in R) variable names.
 * **projectData.zip** is the file downloaded from here, https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip,   
 as given in the project description.
+* **features_info.txt** is included in **projectData.zip** and is the original study authors' description of the variables used.  Mention of variables not used in this project were deleted from it, and it was provided as an appendix to the CodeBook in order to help simplify variable description.
 * **CodeBook.md** is the codebook describing the variables included in the tidy data set.
-
 
 
 
@@ -25,7 +26,7 @@ downloadDate = date(); downloadDate
 ```
 
 ```
-## [1] "Sun Aug 10 22:04:26 2014"
+## [1] "Tue Aug 12 10:34:12 2014"
 ```
 
 ```r
@@ -166,10 +167,18 @@ fullDataSet = fullData[ ,columnsToKeep]
 data = cbind(fullData[,c(1,563)], fullDataSet)
 ```
 
-###  Aggregate observations by Subject x Activity and calculate the mean field     measurement for each group.
+###  Aggregate observations by Subject x Activity and calculate the mean field     measurement for each group.  Save the 'second' tidy data set.
 
 ```r
-dataSet2 = aggregate(data, list(Subject = data$Subject, Activity = data$Activity), mean)
+dataSet2 = suppressWarnings(aggregate(data, list(Subject = data$Subject, Activity = data$Activity), mean))
 finalSecondDataSet = dataSet2[ ,-c(3:4)]
-write.table(finalSecondDataSet, file = "tidyData.txt")
+
+# To save a data set with variables as named originally
+#write.table(finalSecondDataSet, file = "tidyDataOriginalVarNames.txt", row.names = FALSE)
+
+# To save a data set with R-defined, syntactically valid variable names.
+#dataSetValidVarNames = make.names(finalSecondDataSet)
+#write.table(finalSecondDataSet, file = "tidyDataValidVarNames.txt", row.names = FALSE)
 ```
+
+
