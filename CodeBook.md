@@ -1,6 +1,6 @@
 
 ### The R code immediately below was used to create the CodeBook.  Following that code is the CodeBook itself, and following that is the code--also included in 'run_analysis.R'--used to convert the raw data into the form described in the CodeBook.  
-### The CodeBook includes original variable names along with the syntactically (in R) variable names.  Note that the variables in this project are the MEAN measurements (across Subject x Activity combinations) of original-study measurements.  Lengthy decriptions of each original-study variable are not provided in the CodeBook itself.  Instead, interested readers can note the original variable names and consult the original researchers' documentation (provided as an appendix to the CodeBook below) for full technical descriptions.  Mention of variables not included in the current project have been deleted from that document.    
+### The CodeBook includes original variable names along with the syntactically valid (in R) variable names.  Note that the variables in this project are the MEAN measurements (across Subject x Activity combinations) of original-study measurements.  Lengthy decriptions of each original-study variable are not provided in the CodeBook itself.  Instead, interested readers can note the original variable names and consult the original researchers' documentation (provided as an appendix to the CodeBook below) for full technical descriptions.  Mention of variables not included in the current project have been deleted from that document.    
 
 
 ```r
