@@ -24,7 +24,7 @@ for (i in 1:88) {
 for (h in 1:88)   {
   colnames(codebook[[h]])[1] = make.names(varNames[h,1])
   codebook[[h]][1,1] = varNames[h,1]
-  codebook[[h]][2,1] = "The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description."
+  codebook[[h]][2,1] = "Mean of Subject x Activity measurements of the above-named variable"
   codebook[[h]][3,1] = 'Numeric'
   codebook[[h]][4,1] = stats[1, h]
   codebook[[h]][5,1] = stats[2, h]
@@ -72,692 +72,692 @@ CodeBook
 ## ......                                  LAYING
 ## 
 ## [[3]]
-##                                                                                                                                                                                     tBodyAcc.std...X
-## Original Var. Name:                                                                                                                                                                 tBodyAcc-std()-X
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.996  
-## ..                                                                                                                                                                                  Max.   : 0.627  
+##                                                                          tBodyAcc.std...X
+## Original Var. Name:                                                      tBodyAcc-std()-X
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.996  
+## ..                                                                       Max.   : 0.627  
 ## 
 ## [[4]]
-##                                                                                                                                                                                     tBodyAcc.std...Y
-## Original Var. Name:                                                                                                                                                                 tBodyAcc-std()-Y
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                  Min.   :-0.9902  
-## ..                                                                                                                                                                                 Max.   : 0.6169  
+##                                                                          tBodyAcc.std...Y
+## Original Var. Name:                                                      tBodyAcc-std()-Y
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                       Min.   :-0.9902  
+## ..                                                                      Max.   : 0.6169  
 ## 
 ## [[5]]
-##                                                                                                                                                                                     tBodyAcc.std...Z
-## Original Var. Name:                                                                                                                                                                 tBodyAcc-std()-Z
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.988  
-## ..                                                                                                                                                                                  Max.   : 0.609  
+##                                                                          tBodyAcc.std...Z
+## Original Var. Name:                                                      tBodyAcc-std()-Z
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.988  
+## ..                                                                       Max.   : 0.609  
 ## 
 ## [[6]]
-##                                                                                                                                                                                  tGravityAcc.std...X
-## Original Var. Name:                                                                                                                                                              tGravityAcc-std()-X
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.997  
-## ..                                                                                                                                                                                  Max.   :-0.830  
+##                                                                       tGravityAcc.std...X
+## Original Var. Name:                                                   tGravityAcc-std()-X
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.997  
+## ..                                                                       Max.   :-0.830  
 ## 
 ## [[7]]
-##                                                                                                                                                                                  tGravityAcc.std...Y
-## Original Var. Name:                                                                                                                                                              tGravityAcc-std()-Y
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.994  
-## ..                                                                                                                                                                                  Max.   :-0.644  
+##                                                                       tGravityAcc.std...Y
+## Original Var. Name:                                                   tGravityAcc-std()-Y
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.994  
+## ..                                                                       Max.   :-0.644  
 ## 
 ## [[8]]
-##                                                                                                                                                                                  tGravityAcc.std...Z
-## Original Var. Name:                                                                                                                                                              tGravityAcc-std()-Z
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.991  
-## ..                                                                                                                                                                                  Max.   :-0.610  
+##                                                                       tGravityAcc.std...Z
+## Original Var. Name:                                                   tGravityAcc-std()-Z
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.991  
+## ..                                                                       Max.   :-0.610  
 ## 
 ## [[9]]
-##                                                                                                                                                                                 tBodyAccJerk.std...X
-## Original Var. Name:                                                                                                                                                             tBodyAccJerk-std()-X
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.995  
-## ..                                                                                                                                                                                  Max.   : 0.544  
+##                                                                      tBodyAccJerk.std...X
+## Original Var. Name:                                                  tBodyAccJerk-std()-X
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.995  
+## ..                                                                       Max.   : 0.544  
 ## 
 ## [[10]]
-##                                                                                                                                                                                 tBodyAccJerk.std...Y
-## Original Var. Name:                                                                                                                                                             tBodyAccJerk-std()-Y
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.990  
-## ..                                                                                                                                                                                  Max.   : 0.355  
+##                                                                      tBodyAccJerk.std...Y
+## Original Var. Name:                                                  tBodyAccJerk-std()-Y
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.990  
+## ..                                                                       Max.   : 0.355  
 ## 
 ## [[11]]
-##                                                                                                                                                                                 tBodyAccJerk.std...Z
-## Original Var. Name:                                                                                                                                                             tBodyAccJerk-std()-Z
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.993  
-## ..                                                                                                                                                                                  Max.   : 0.031  
+##                                                                      tBodyAccJerk.std...Z
+## Original Var. Name:                                                  tBodyAccJerk-std()-Z
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.993  
+## ..                                                                       Max.   : 0.031  
 ## 
 ## [[12]]
-##                                                                                                                                                                                    tBodyGyro.std...X
-## Original Var. Name:                                                                                                                                                                tBodyGyro-std()-X
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.994  
-## ..                                                                                                                                                                                  Max.   : 0.268  
+##                                                                         tBodyGyro.std...X
+## Original Var. Name:                                                     tBodyGyro-std()-X
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.994  
+## ..                                                                       Max.   : 0.268  
 ## 
 ## [[13]]
-##                                                                                                                                                                                    tBodyGyro.std...Y
-## Original Var. Name:                                                                                                                                                                tBodyGyro-std()-Y
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.994  
-## ..                                                                                                                                                                                  Max.   : 0.476  
+##                                                                         tBodyGyro.std...Y
+## Original Var. Name:                                                     tBodyGyro-std()-Y
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.994  
+## ..                                                                       Max.   : 0.476  
 ## 
 ## [[14]]
-##                                                                                                                                                                                    tBodyGyro.std...Z
-## Original Var. Name:                                                                                                                                                                tBodyGyro-std()-Z
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.986  
-## ..                                                                                                                                                                                  Max.   : 0.565  
+##                                                                         tBodyGyro.std...Z
+## Original Var. Name:                                                     tBodyGyro-std()-Z
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.986  
+## ..                                                                       Max.   : 0.565  
 ## 
 ## [[15]]
-##                                                                                                                                                                                tBodyGyroJerk.std...X
-## Original Var. Name:                                                                                                                                                            tBodyGyroJerk-std()-X
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.997  
-## ..                                                                                                                                                                                  Max.   : 0.179  
+##                                                                     tBodyGyroJerk.std...X
+## Original Var. Name:                                                 tBodyGyroJerk-std()-X
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.997  
+## ..                                                                       Max.   : 0.179  
 ## 
 ## [[16]]
-##                                                                                                                                                                                tBodyGyroJerk.std...Y
-## Original Var. Name:                                                                                                                                                            tBodyGyroJerk-std()-Y
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.997  
-## ..                                                                                                                                                                                  Max.   : 0.296  
+##                                                                     tBodyGyroJerk.std...Y
+## Original Var. Name:                                                 tBodyGyroJerk-std()-Y
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.997  
+## ..                                                                       Max.   : 0.296  
 ## 
 ## [[17]]
-##                                                                                                                                                                                tBodyGyroJerk.std...Z
-## Original Var. Name:                                                                                                                                                            tBodyGyroJerk-std()-Z
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.995  
-## ..                                                                                                                                                                                  Max.   : 0.193  
+##                                                                     tBodyGyroJerk.std...Z
+## Original Var. Name:                                                 tBodyGyroJerk-std()-Z
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.995  
+## ..                                                                       Max.   : 0.193  
 ## 
 ## [[18]]
-##                                                                                                                                                                                    tBodyAccMag.std..
-## Original Var. Name:                                                                                                                                                                tBodyAccMag-std()
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.987  
-## ..                                                                                                                                                                                  Max.   : 0.428  
+##                                                                         tBodyAccMag.std..
+## Original Var. Name:                                                     tBodyAccMag-std()
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.987  
+## ..                                                                       Max.   : 0.428  
 ## 
 ## [[19]]
-##                                                                                                                                                                                 tGravityAccMag.std..
-## Original Var. Name:                                                                                                                                                             tGravityAccMag-std()
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.987  
-## ..                                                                                                                                                                                  Max.   : 0.428  
+##                                                                      tGravityAccMag.std..
+## Original Var. Name:                                                  tGravityAccMag-std()
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.987  
+## ..                                                                       Max.   : 0.428  
 ## 
 ## [[20]]
-##                                                                                                                                                                                tBodyAccJerkMag.std..
-## Original Var. Name:                                                                                                                                                            tBodyAccJerkMag-std()
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.995  
-## ..                                                                                                                                                                                  Max.   : 0.451  
+##                                                                     tBodyAccJerkMag.std..
+## Original Var. Name:                                                 tBodyAccJerkMag-std()
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.995  
+## ..                                                                       Max.   : 0.451  
 ## 
 ## [[21]]
-##                                                                                                                                                                                   tBodyGyroMag.std..
-## Original Var. Name:                                                                                                                                                               tBodyGyroMag-std()
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.981  
-## ..                                                                                                                                                                                  Max.   : 0.300  
+##                                                                        tBodyGyroMag.std..
+## Original Var. Name:                                                    tBodyGyroMag-std()
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.981  
+## ..                                                                       Max.   : 0.300  
 ## 
 ## [[22]]
-##                                                                                                                                                                               tBodyGyroJerkMag.std..
-## Original Var. Name:                                                                                                                                                           tBodyGyroJerkMag-std()
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.998  
-## ..                                                                                                                                                                                  Max.   : 0.250  
+##                                                                    tBodyGyroJerkMag.std..
+## Original Var. Name:                                                tBodyGyroJerkMag-std()
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.998  
+## ..                                                                       Max.   : 0.250  
 ## 
 ## [[23]]
-##                                                                                                                                                                                     fBodyAcc.std...X
-## Original Var. Name:                                                                                                                                                                 fBodyAcc-std()-X
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.997  
-## ..                                                                                                                                                                                  Max.   : 0.658  
+##                                                                          fBodyAcc.std...X
+## Original Var. Name:                                                      fBodyAcc-std()-X
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.997  
+## ..                                                                       Max.   : 0.658  
 ## 
 ## [[24]]
-##                                                                                                                                                                                     fBodyAcc.std...Y
-## Original Var. Name:                                                                                                                                                                 fBodyAcc-std()-Y
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                  Min.   :-0.9907  
-## ..                                                                                                                                                                                 Max.   : 0.5602  
+##                                                                          fBodyAcc.std...Y
+## Original Var. Name:                                                      fBodyAcc-std()-Y
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                       Min.   :-0.9907  
+## ..                                                                      Max.   : 0.5602  
 ## 
 ## [[25]]
-##                                                                                                                                                                                     fBodyAcc.std...Z
-## Original Var. Name:                                                                                                                                                                 fBodyAcc-std()-Z
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.987  
-## ..                                                                                                                                                                                  Max.   : 0.687  
+##                                                                          fBodyAcc.std...Z
+## Original Var. Name:                                                      fBodyAcc-std()-Z
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.987  
+## ..                                                                       Max.   : 0.687  
 ## 
 ## [[26]]
-##                                                                                                                                                                                 fBodyAccJerk.std...X
-## Original Var. Name:                                                                                                                                                             fBodyAccJerk-std()-X
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.995  
-## ..                                                                                                                                                                                  Max.   : 0.477  
+##                                                                      fBodyAccJerk.std...X
+## Original Var. Name:                                                  fBodyAccJerk-std()-X
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.995  
+## ..                                                                       Max.   : 0.477  
 ## 
 ## [[27]]
-##                                                                                                                                                                                 fBodyAccJerk.std...Y
-## Original Var. Name:                                                                                                                                                             fBodyAccJerk-std()-Y
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.991  
-## ..                                                                                                                                                                                  Max.   : 0.350  
+##                                                                      fBodyAccJerk.std...Y
+## Original Var. Name:                                                  fBodyAccJerk-std()-Y
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.991  
+## ..                                                                       Max.   : 0.350  
 ## 
 ## [[28]]
-##                                                                                                                                                                                 fBodyAccJerk.std...Z
-## Original Var. Name:                                                                                                                                                             fBodyAccJerk-std()-Z
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                  Min.   :-0.9931  
-## ..                                                                                                                                                                                 Max.   :-0.0062  
+##                                                                      fBodyAccJerk.std...Z
+## Original Var. Name:                                                  fBodyAccJerk-std()-Z
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                       Min.   :-0.9931  
+## ..                                                                      Max.   :-0.0062  
 ## 
 ## [[29]]
-##                                                                                                                                                                                    fBodyGyro.std...X
-## Original Var. Name:                                                                                                                                                                fBodyGyro-std()-X
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.995  
-## ..                                                                                                                                                                                  Max.   : 0.197  
+##                                                                         fBodyGyro.std...X
+## Original Var. Name:                                                     fBodyGyro-std()-X
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.995  
+## ..                                                                       Max.   : 0.197  
 ## 
 ## [[30]]
-##                                                                                                                                                                                    fBodyGyro.std...Y
-## Original Var. Name:                                                                                                                                                                fBodyGyro-std()-Y
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.994  
-## ..                                                                                                                                                                                  Max.   : 0.646  
+##                                                                         fBodyGyro.std...Y
+## Original Var. Name:                                                     fBodyGyro-std()-Y
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.994  
+## ..                                                                       Max.   : 0.646  
 ## 
 ## [[31]]
-##                                                                                                                                                                                    fBodyGyro.std...Z
-## Original Var. Name:                                                                                                                                                                fBodyGyro-std()-Z
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.987  
-## ..                                                                                                                                                                                  Max.   : 0.522  
+##                                                                         fBodyGyro.std...Z
+## Original Var. Name:                                                     fBodyGyro-std()-Z
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.987  
+## ..                                                                       Max.   : 0.522  
 ## 
 ## [[32]]
-##                                                                                                                                                                                    fBodyAccMag.std..
-## Original Var. Name:                                                                                                                                                                fBodyAccMag-std()
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.988  
-## ..                                                                                                                                                                                  Max.   : 0.179  
+##                                                                         fBodyAccMag.std..
+## Original Var. Name:                                                     fBodyAccMag-std()
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.988  
+## ..                                                                       Max.   : 0.179  
 ## 
 ## [[33]]
-##                                                                                                                                                                            fBodyBodyAccJerkMag.std..
-## Original Var. Name:                                                                                                                                                        fBodyBodyAccJerkMag-std()
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.994  
-## ..                                                                                                                                                                                  Max.   : 0.316  
+##                                                                 fBodyBodyAccJerkMag.std..
+## Original Var. Name:                                             fBodyBodyAccJerkMag-std()
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.994  
+## ..                                                                       Max.   : 0.316  
 ## 
 ## [[34]]
-##                                                                                                                                                                               fBodyBodyGyroMag.std..
-## Original Var. Name:                                                                                                                                                           fBodyBodyGyroMag-std()
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.982  
-## ..                                                                                                                                                                                  Max.   : 0.237  
+##                                                                    fBodyBodyGyroMag.std..
+## Original Var. Name:                                                fBodyBodyGyroMag-std()
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.982  
+## ..                                                                       Max.   : 0.237  
 ## 
 ## [[35]]
-##                                                                                                                                                                           fBodyBodyGyroJerkMag.std..
-## Original Var. Name:                                                                                                                                                       fBodyBodyGyroJerkMag-std()
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.998  
-## ..                                                                                                                                                                                  Max.   : 0.288  
+##                                                                fBodyBodyGyroJerkMag.std..
+## Original Var. Name:                                            fBodyBodyGyroJerkMag-std()
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.998  
+## ..                                                                       Max.   : 0.288  
 ## 
 ## [[36]]
-##                                                                                                                                                                                    tBodyAcc.mean...X
-## Original Var. Name:                                                                                                                                                                tBodyAcc-mean()-X
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                    Min.   :0.222  
-## ..                                                                                                                                                                                   Max.   :0.301  
+##                                                                         tBodyAcc.mean...X
+## Original Var. Name:                                                     tBodyAcc-mean()-X
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                         Min.   :0.222  
+## ..                                                                        Max.   :0.301  
 ## 
 ## [[37]]
-##                                                                                                                                                                                    tBodyAcc.mean...Y
-## Original Var. Name:                                                                                                                                                                tBodyAcc-mean()-Y
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                 Min.   :-0.04051  
-## ..                                                                                                                                                                                Max.   :-0.00131  
+##                                                                         tBodyAcc.mean...Y
+## Original Var. Name:                                                     tBodyAcc-mean()-Y
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                      Min.   :-0.04051  
+## ..                                                                     Max.   :-0.00131  
 ## 
 ## [[38]]
-##                                                                                                                                                                                    tBodyAcc.mean...Z
-## Original Var. Name:                                                                                                                                                                tBodyAcc-mean()-Z
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                  Min.   :-0.1525  
-## ..                                                                                                                                                                                 Max.   :-0.0754  
+##                                                                         tBodyAcc.mean...Z
+## Original Var. Name:                                                     tBodyAcc-mean()-Z
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                       Min.   :-0.1525  
+## ..                                                                      Max.   :-0.0754  
 ## 
 ## [[39]]
-##                                                                                                                                                                                 tGravityAcc.mean...X
-## Original Var. Name:                                                                                                                                                             tGravityAcc-mean()-X
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.680  
-## ..                                                                                                                                                                                  Max.   : 0.975  
+##                                                                      tGravityAcc.mean...X
+## Original Var. Name:                                                  tGravityAcc-mean()-X
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.680  
+## ..                                                                       Max.   : 0.975  
 ## 
 ## [[40]]
-##                                                                                                                                                                                 tGravityAcc.mean...Y
-## Original Var. Name:                                                                                                                                                             tGravityAcc-mean()-Y
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                  Min.   :-0.4799  
-## ..                                                                                                                                                                                 Max.   : 0.9566  
+##                                                                      tGravityAcc.mean...Y
+## Original Var. Name:                                                  tGravityAcc-mean()-Y
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                       Min.   :-0.4799  
+## ..                                                                      Max.   : 0.9566  
 ## 
 ## [[41]]
-##                                                                                                                                                                                 tGravityAcc.mean...Z
-## Original Var. Name:                                                                                                                                                             tGravityAcc-mean()-Z
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                  Min.   :-0.4951  
-## ..                                                                                                                                                                                 Max.   : 0.9579  
+##                                                                      tGravityAcc.mean...Z
+## Original Var. Name:                                                  tGravityAcc-mean()-Z
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                       Min.   :-0.4951  
+## ..                                                                      Max.   : 0.9579  
 ## 
 ## [[42]]
-##                                                                                                                                                                                tBodyAccJerk.mean...X
-## Original Var. Name:                                                                                                                                                            tBodyAccJerk-mean()-X
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :0.0427  
-## ..                                                                                                                                                                                  Max.   :0.1302  
+##                                                                     tBodyAccJerk.mean...X
+## Original Var. Name:                                                 tBodyAccJerk-mean()-X
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :0.0427  
+## ..                                                                       Max.   :0.1302  
 ## 
 ## [[43]]
-##                                                                                                                                                                                tBodyAccJerk.mean...Y
-## Original Var. Name:                                                                                                                                                            tBodyAccJerk-mean()-Y
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                 Min.   :-0.03869  
-## ..                                                                                                                                                                                Max.   : 0.05682  
+##                                                                     tBodyAccJerk.mean...Y
+## Original Var. Name:                                                 tBodyAccJerk-mean()-Y
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                      Min.   :-0.03869  
+## ..                                                                     Max.   : 0.05682  
 ## 
 ## [[44]]
-##                                                                                                                                                                                tBodyAccJerk.mean...Z
-## Original Var. Name:                                                                                                                                                            tBodyAccJerk-mean()-Z
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                 Min.   :-0.06746  
-## ..                                                                                                                                                                                Max.   : 0.03805  
+##                                                                     tBodyAccJerk.mean...Z
+## Original Var. Name:                                                 tBodyAccJerk-mean()-Z
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                      Min.   :-0.06746  
+## ..                                                                     Max.   : 0.03805  
 ## 
 ## [[45]]
-##                                                                                                                                                                                   tBodyGyro.mean...X
-## Original Var. Name:                                                                                                                                                               tBodyGyro-mean()-X
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                  Min.   :-0.2058  
-## ..                                                                                                                                                                                 Max.   : 0.1927  
+##                                                                        tBodyGyro.mean...X
+## Original Var. Name:                                                    tBodyGyro-mean()-X
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                       Min.   :-0.2058  
+## ..                                                                      Max.   : 0.1927  
 ## 
 ## [[46]]
-##                                                                                                                                                                                   tBodyGyro.mean...Y
-## Original Var. Name:                                                                                                                                                               tBodyGyro-mean()-Y
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                  Min.   :-0.2042  
-## ..                                                                                                                                                                                 Max.   : 0.0275  
+##                                                                        tBodyGyro.mean...Y
+## Original Var. Name:                                                    tBodyGyro-mean()-Y
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                       Min.   :-0.2042  
+## ..                                                                      Max.   : 0.0275  
 ## 
 ## [[47]]
-##                                                                                                                                                                                   tBodyGyro.mean...Z
-## Original Var. Name:                                                                                                                                                               tBodyGyro-mean()-Z
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                  Min.   :-0.0724  
-## ..                                                                                                                                                                                 Max.   : 0.1791  
+##                                                                        tBodyGyro.mean...Z
+## Original Var. Name:                                                    tBodyGyro-mean()-Z
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                       Min.   :-0.0724  
+## ..                                                                      Max.   : 0.1791  
 ## 
 ## [[48]]
-##                                                                                                                                                                               tBodyGyroJerk.mean...X
-## Original Var. Name:                                                                                                                                                           tBodyGyroJerk-mean()-X
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                  Min.   :-0.1572  
-## ..                                                                                                                                                                                 Max.   :-0.0221  
+##                                                                    tBodyGyroJerk.mean...X
+## Original Var. Name:                                                tBodyGyroJerk-mean()-X
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                       Min.   :-0.1572  
+## ..                                                                      Max.   :-0.0221  
 ## 
 ## [[49]]
-##                                                                                                                                                                               tBodyGyroJerk.mean...Y
-## Original Var. Name:                                                                                                                                                           tBodyGyroJerk-mean()-Y
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                  Min.   :-0.0768  
-## ..                                                                                                                                                                                 Max.   :-0.0132  
+##                                                                    tBodyGyroJerk.mean...Y
+## Original Var. Name:                                                tBodyGyroJerk-mean()-Y
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                       Min.   :-0.0768  
+## ..                                                                      Max.   :-0.0132  
 ## 
 ## [[50]]
-##                                                                                                                                                                               tBodyGyroJerk.mean...Z
-## Original Var. Name:                                                                                                                                                           tBodyGyroJerk-mean()-Z
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                 Min.   :-0.09250  
-## ..                                                                                                                                                                                Max.   :-0.00694  
+##                                                                    tBodyGyroJerk.mean...Z
+## Original Var. Name:                                                tBodyGyroJerk-mean()-Z
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                      Min.   :-0.09250  
+## ..                                                                     Max.   :-0.00694  
 ## 
 ## [[51]]
-##                                                                                                                                                                                   tBodyAccMag.mean..
-## Original Var. Name:                                                                                                                                                               tBodyAccMag-mean()
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                  Min.   :-0.9865  
-## ..                                                                                                                                                                                 Max.   : 0.6446  
+##                                                                        tBodyAccMag.mean..
+## Original Var. Name:                                                    tBodyAccMag-mean()
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                       Min.   :-0.9865  
+## ..                                                                      Max.   : 0.6446  
 ## 
 ## [[52]]
-##                                                                                                                                                                                tGravityAccMag.mean..
-## Original Var. Name:                                                                                                                                                            tGravityAccMag-mean()
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                  Min.   :-0.9865  
-## ..                                                                                                                                                                                 Max.   : 0.6446  
+##                                                                     tGravityAccMag.mean..
+## Original Var. Name:                                                 tGravityAccMag-mean()
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                       Min.   :-0.9865  
+## ..                                                                      Max.   : 0.6446  
 ## 
 ## [[53]]
-##                                                                                                                                                                               tBodyAccJerkMag.mean..
-## Original Var. Name:                                                                                                                                                           tBodyAccJerkMag-mean()
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.993  
-## ..                                                                                                                                                                                  Max.   : 0.434  
+##                                                                    tBodyAccJerkMag.mean..
+## Original Var. Name:                                                tBodyAccJerkMag-mean()
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.993  
+## ..                                                                       Max.   : 0.434  
 ## 
 ## [[54]]
-##                                                                                                                                                                                  tBodyGyroMag.mean..
-## Original Var. Name:                                                                                                                                                              tBodyGyroMag-mean()
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.981  
-## ..                                                                                                                                                                                  Max.   : 0.418  
+##                                                                       tBodyGyroMag.mean..
+## Original Var. Name:                                                   tBodyGyroMag-mean()
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.981  
+## ..                                                                       Max.   : 0.418  
 ## 
 ## [[55]]
-##                                                                                                                                                                              tBodyGyroJerkMag.mean..
-## Original Var. Name:                                                                                                                                                          tBodyGyroJerkMag-mean()
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                  Min.   :-0.9973  
-## ..                                                                                                                                                                                 Max.   : 0.0876  
+##                                                                   tBodyGyroJerkMag.mean..
+## Original Var. Name:                                               tBodyGyroJerkMag-mean()
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                       Min.   :-0.9973  
+## ..                                                                      Max.   : 0.0876  
 ## 
 ## [[56]]
-##                                                                                                                                                                                    fBodyAcc.mean...X
-## Original Var. Name:                                                                                                                                                                fBodyAcc-mean()-X
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.995  
-## ..                                                                                                                                                                                  Max.   : 0.537  
+##                                                                         fBodyAcc.mean...X
+## Original Var. Name:                                                     fBodyAcc-mean()-X
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.995  
+## ..                                                                       Max.   : 0.537  
 ## 
 ## [[57]]
-##                                                                                                                                                                                    fBodyAcc.mean...Y
-## Original Var. Name:                                                                                                                                                                fBodyAcc-mean()-Y
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                  Min.   :-0.9890  
-## ..                                                                                                                                                                                 Max.   : 0.5242  
+##                                                                         fBodyAcc.mean...Y
+## Original Var. Name:                                                     fBodyAcc-mean()-Y
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                       Min.   :-0.9890  
+## ..                                                                      Max.   : 0.5242  
 ## 
 ## [[58]]
-##                                                                                                                                                                                    fBodyAcc.mean...Z
-## Original Var. Name:                                                                                                                                                                fBodyAcc-mean()-Z
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.990  
-## ..                                                                                                                                                                                  Max.   : 0.281  
+##                                                                         fBodyAcc.mean...Z
+## Original Var. Name:                                                     fBodyAcc-mean()-Z
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.990  
+## ..                                                                       Max.   : 0.281  
 ## 
 ## [[59]]
-##                                                                                                                                                                                fBodyAcc.meanFreq...X
-## Original Var. Name:                                                                                                                                                            fBodyAcc-meanFreq()-X
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.636  
-## ..                                                                                                                                                                                  Max.   : 0.159  
+##                                                                     fBodyAcc.meanFreq...X
+## Original Var. Name:                                                 fBodyAcc-meanFreq()-X
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.636  
+## ..                                                                       Max.   : 0.159  
 ## 
 ## [[60]]
-##                                                                                                                                                                                fBodyAcc.meanFreq...Y
-## Original Var. Name:                                                                                                                                                            fBodyAcc-meanFreq()-Y
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                  Min.   :-0.3795  
-## ..                                                                                                                                                                                 Max.   : 0.4665  
+##                                                                     fBodyAcc.meanFreq...Y
+## Original Var. Name:                                                 fBodyAcc-meanFreq()-Y
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                       Min.   :-0.3795  
+## ..                                                                      Max.   : 0.4665  
 ## 
 ## [[61]]
-##                                                                                                                                                                                fBodyAcc.meanFreq...Z
-## Original Var. Name:                                                                                                                                                            fBodyAcc-meanFreq()-Z
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                  Min.   :-0.5201  
-## ..                                                                                                                                                                                 Max.   : 0.4025  
+##                                                                     fBodyAcc.meanFreq...Z
+## Original Var. Name:                                                 fBodyAcc-meanFreq()-Z
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                       Min.   :-0.5201  
+## ..                                                                      Max.   : 0.4025  
 ## 
 ## [[62]]
-##                                                                                                                                                                                fBodyAccJerk.mean...X
-## Original Var. Name:                                                                                                                                                            fBodyAccJerk-mean()-X
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.995  
-## ..                                                                                                                                                                                  Max.   : 0.474  
+##                                                                     fBodyAccJerk.mean...X
+## Original Var. Name:                                                 fBodyAccJerk-mean()-X
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.995  
+## ..                                                                       Max.   : 0.474  
 ## 
 ## [[63]]
-##                                                                                                                                                                                fBodyAccJerk.mean...Y
-## Original Var. Name:                                                                                                                                                            fBodyAccJerk-mean()-Y
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.989  
-## ..                                                                                                                                                                                  Max.   : 0.277  
+##                                                                     fBodyAccJerk.mean...Y
+## Original Var. Name:                                                 fBodyAccJerk-mean()-Y
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.989  
+## ..                                                                       Max.   : 0.277  
 ## 
 ## [[64]]
-##                                                                                                                                                                                fBodyAccJerk.mean...Z
-## Original Var. Name:                                                                                                                                                            fBodyAccJerk-mean()-Z
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.992  
-## ..                                                                                                                                                                                  Max.   : 0.158  
+##                                                                     fBodyAccJerk.mean...Z
+## Original Var. Name:                                                 fBodyAccJerk-mean()-Z
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.992  
+## ..                                                                       Max.   : 0.158  
 ## 
 ## [[65]]
-##                                                                                                                                                                            fBodyAccJerk.meanFreq...X
-## Original Var. Name:                                                                                                                                                        fBodyAccJerk-meanFreq()-X
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                  Min.   :-0.5760  
-## ..                                                                                                                                                                                 Max.   : 0.3314  
+##                                                                 fBodyAccJerk.meanFreq...X
+## Original Var. Name:                                             fBodyAccJerk-meanFreq()-X
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                       Min.   :-0.5760  
+## ..                                                                      Max.   : 0.3314  
 ## 
 ## [[66]]
-##                                                                                                                                                                            fBodyAccJerk.meanFreq...Y
-## Original Var. Name:                                                                                                                                                        fBodyAccJerk-meanFreq()-Y
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                  Min.   :-0.6020  
-## ..                                                                                                                                                                                 Max.   : 0.1957  
+##                                                                 fBodyAccJerk.meanFreq...Y
+## Original Var. Name:                                             fBodyAccJerk-meanFreq()-Y
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                       Min.   :-0.6020  
+## ..                                                                      Max.   : 0.1957  
 ## 
 ## [[67]]
-##                                                                                                                                                                            fBodyAccJerk.meanFreq...Z
-## Original Var. Name:                                                                                                                                                        fBodyAccJerk-meanFreq()-Z
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                  Min.   :-0.6276  
-## ..                                                                                                                                                                                 Max.   : 0.2301  
+##                                                                 fBodyAccJerk.meanFreq...Z
+## Original Var. Name:                                             fBodyAccJerk-meanFreq()-Z
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                       Min.   :-0.6276  
+## ..                                                                      Max.   : 0.2301  
 ## 
 ## [[68]]
-##                                                                                                                                                                                   fBodyGyro.mean...X
-## Original Var. Name:                                                                                                                                                               fBodyGyro-mean()-X
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.993  
-## ..                                                                                                                                                                                  Max.   : 0.475  
+##                                                                        fBodyGyro.mean...X
+## Original Var. Name:                                                    fBodyGyro-mean()-X
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.993  
+## ..                                                                       Max.   : 0.475  
 ## 
 ## [[69]]
-##                                                                                                                                                                                   fBodyGyro.mean...Y
-## Original Var. Name:                                                                                                                                                               fBodyGyro-mean()-Y
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.994  
-## ..                                                                                                                                                                                  Max.   : 0.329  
+##                                                                        fBodyGyro.mean...Y
+## Original Var. Name:                                                    fBodyGyro-mean()-Y
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.994  
+## ..                                                                       Max.   : 0.329  
 ## 
 ## [[70]]
-##                                                                                                                                                                                   fBodyGyro.mean...Z
-## Original Var. Name:                                                                                                                                                               fBodyGyro-mean()-Z
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.986  
-## ..                                                                                                                                                                                  Max.   : 0.492  
+##                                                                        fBodyGyro.mean...Z
+## Original Var. Name:                                                    fBodyGyro-mean()-Z
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.986  
+## ..                                                                       Max.   : 0.492  
 ## 
 ## [[71]]
-##                                                                                                                                                                               fBodyGyro.meanFreq...X
-## Original Var. Name:                                                                                                                                                           fBodyGyro-meanFreq()-X
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                  Min.   :-0.3958  
-## ..                                                                                                                                                                                 Max.   : 0.2492  
+##                                                                    fBodyGyro.meanFreq...X
+## Original Var. Name:                                                fBodyGyro-meanFreq()-X
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                       Min.   :-0.3958  
+## ..                                                                      Max.   : 0.2492  
 ## 
 ## [[72]]
-##                                                                                                                                                                               fBodyGyro.meanFreq...Y
-## Original Var. Name:                                                                                                                                                           fBodyGyro-meanFreq()-Y
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                  Min.   :-0.6668  
-## ..                                                                                                                                                                                 Max.   : 0.2731  
+##                                                                    fBodyGyro.meanFreq...Y
+## Original Var. Name:                                                fBodyGyro-meanFreq()-Y
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                       Min.   :-0.6668  
+## ..                                                                      Max.   : 0.2731  
 ## 
 ## [[73]]
-##                                                                                                                                                                               fBodyGyro.meanFreq...Z
-## Original Var. Name:                                                                                                                                                           fBodyGyro-meanFreq()-Z
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                  Min.   :-0.5075  
-## ..                                                                                                                                                                                 Max.   : 0.3771  
+##                                                                    fBodyGyro.meanFreq...Z
+## Original Var. Name:                                                fBodyGyro-meanFreq()-Z
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                       Min.   :-0.5075  
+## ..                                                                      Max.   : 0.3771  
 ## 
 ## [[74]]
-##                                                                                                                                                                                   fBodyAccMag.mean..
-## Original Var. Name:                                                                                                                                                               fBodyAccMag-mean()
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.987  
-## ..                                                                                                                                                                                  Max.   : 0.587  
+##                                                                        fBodyAccMag.mean..
+## Original Var. Name:                                                    fBodyAccMag-mean()
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.987  
+## ..                                                                       Max.   : 0.587  
 ## 
 ## [[75]]
-##                                                                                                                                                                               fBodyAccMag.meanFreq..
-## Original Var. Name:                                                                                                                                                           fBodyAccMag-meanFreq()
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                  Min.   :-0.3123  
-## ..                                                                                                                                                                                 Max.   : 0.4358  
+##                                                                    fBodyAccMag.meanFreq..
+## Original Var. Name:                                                fBodyAccMag-meanFreq()
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                       Min.   :-0.3123  
+## ..                                                                      Max.   : 0.4358  
 ## 
 ## [[76]]
-##                                                                                                                                                                           fBodyBodyAccJerkMag.mean..
-## Original Var. Name:                                                                                                                                                       fBodyBodyAccJerkMag-mean()
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.994  
-## ..                                                                                                                                                                                  Max.   : 0.538  
+##                                                                fBodyBodyAccJerkMag.mean..
+## Original Var. Name:                                            fBodyBodyAccJerkMag-mean()
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.994  
+## ..                                                                       Max.   : 0.538  
 ## 
 ## [[77]]
-##                                                                                                                                                                       fBodyBodyAccJerkMag.meanFreq..
-## Original Var. Name:                                                                                                                                                   fBodyBodyAccJerkMag-meanFreq()
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                  Min.   :-0.1252  
-## ..                                                                                                                                                                                 Max.   : 0.4881  
+##                                                            fBodyBodyAccJerkMag.meanFreq..
+## Original Var. Name:                                        fBodyBodyAccJerkMag-meanFreq()
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                       Min.   :-0.1252  
+## ..                                                                      Max.   : 0.4881  
 ## 
 ## [[78]]
-##                                                                                                                                                                              fBodyBodyGyroMag.mean..
-## Original Var. Name:                                                                                                                                                          fBodyBodyGyroMag-mean()
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.987  
-## ..                                                                                                                                                                                  Max.   : 0.204  
+##                                                                   fBodyBodyGyroMag.mean..
+## Original Var. Name:                                               fBodyBodyGyroMag-mean()
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.987  
+## ..                                                                       Max.   : 0.204  
 ## 
 ## [[79]]
-##                                                                                                                                                                          fBodyBodyGyroMag.meanFreq..
-## Original Var. Name:                                                                                                                                                      fBodyBodyGyroMag-meanFreq()
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                  Min.   :-0.4566  
-## ..                                                                                                                                                                                 Max.   : 0.4095  
+##                                                               fBodyBodyGyroMag.meanFreq..
+## Original Var. Name:                                           fBodyBodyGyroMag-meanFreq()
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                       Min.   :-0.4566  
+## ..                                                                      Max.   : 0.4095  
 ## 
 ## [[80]]
-##                                                                                                                                                                          fBodyBodyGyroJerkMag.mean..
-## Original Var. Name:                                                                                                                                                      fBodyBodyGyroJerkMag-mean()
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.998  
-## ..                                                                                                                                                                                  Max.   : 0.147  
+##                                                               fBodyBodyGyroJerkMag.mean..
+## Original Var. Name:                                           fBodyBodyGyroJerkMag-mean()
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.998  
+## ..                                                                       Max.   : 0.147  
 ## 
 ## [[81]]
-##                                                                                                                                                                      fBodyBodyGyroJerkMag.meanFreq..
-## Original Var. Name:                                                                                                                                                  fBodyBodyGyroJerkMag-meanFreq()
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                  Min.   :-0.1829  
-## ..                                                                                                                                                                                 Max.   : 0.4263  
+##                                                           fBodyBodyGyroJerkMag.meanFreq..
+## Original Var. Name:                                       fBodyBodyGyroJerkMag-meanFreq()
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                       Min.   :-0.1829  
+## ..                                                                      Max.   : 0.4263  
 ## 
 ## [[82]]
-##                                                                                                                                                                          angle.tBodyAccMean.gravity.
-## Original Var. Name:                                                                                                                                                      angle(tBodyAccMean,gravity)
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                 Min.   :-0.16304  
-## ..                                                                                                                                                                                Max.   : 0.12915  
+##                                                               angle.tBodyAccMean.gravity.
+## Original Var. Name:                                           angle(tBodyAccMean,gravity)
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                      Min.   :-0.16304  
+## ..                                                                     Max.   : 0.12915  
 ## 
 ## [[83]]
-##                                                                                                                                                                 angle.tBodyAccJerkMean..gravityMean.
-## Original Var. Name:                                                                                                                                             angle(tBodyAccJerkMean),gravityMean)
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                 Min.   :-0.12055  
-## ..                                                                                                                                                                                Max.   : 0.20326  
+##                                                      angle.tBodyAccJerkMean..gravityMean.
+## Original Var. Name:                                  angle(tBodyAccJerkMean),gravityMean)
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                      Min.   :-0.12055  
+## ..                                                                     Max.   : 0.20326  
 ## 
 ## [[84]]
-##                                                                                                                                                                     angle.tBodyGyroMean.gravityMean.
-## Original Var. Name:                                                                                                                                                 angle(tBodyGyroMean,gravityMean)
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                  Min.   :-0.3893  
-## ..                                                                                                                                                                                 Max.   : 0.4441  
+##                                                          angle.tBodyGyroMean.gravityMean.
+## Original Var. Name:                                      angle(tBodyGyroMean,gravityMean)
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                       Min.   :-0.3893  
+## ..                                                                      Max.   : 0.4441  
 ## 
 ## [[85]]
-##                                                                                                                                                                 angle.tBodyGyroJerkMean.gravityMean.
-## Original Var. Name:                                                                                                                                             angle(tBodyGyroJerkMean,gravityMean)
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                  Min.   :-0.2237  
-## ..                                                                                                                                                                                 Max.   : 0.1824  
+##                                                      angle.tBodyGyroJerkMean.gravityMean.
+## Original Var. Name:                                  angle(tBodyGyroJerkMean,gravityMean)
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                       Min.   :-0.2237  
+## ..                                                                      Max.   : 0.1824  
 ## 
 ## [[86]]
-##                                                                                                                                                                                 angle.X.gravityMean.
-## Original Var. Name:                                                                                                                                                             angle(X,gravityMean)
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                   Min.   :-0.947  
-## ..                                                                                                                                                                                  Max.   : 0.738  
+##                                                                      angle.X.gravityMean.
+## Original Var. Name:                                                  angle(X,gravityMean)
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                        Min.   :-0.947  
+## ..                                                                       Max.   : 0.738  
 ## 
 ## [[87]]
-##                                                                                                                                                                                 angle.Y.gravityMean.
-## Original Var. Name:                                                                                                                                                             angle(Y,gravityMean)
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                  Min.   :-0.8746  
-## ..                                                                                                                                                                                 Max.   : 0.4248  
+##                                                                      angle.Y.gravityMean.
+## Original Var. Name:                                                  angle(Y,gravityMean)
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                       Min.   :-0.8746  
+## ..                                                                      Max.   : 0.4248  
 ## 
 ## [[88]]
-##                                                                                                                                                                                 angle.Z.gravityMean.
-## Original Var. Name:                                                                                                                                                             angle(Z,gravityMean)
-## Description:          The mean of all measurements (for a given Subject/Activity combination) of the above-named 'Original Var. Name'.  See Appendix for that variable's full technical description.
-## Data Type:                                                                                                                                                                                   Numeric
-## .                                                                                                                                                                                  Min.   :-0.8736  
-## ..                                                                                                                                                                                 Max.   : 0.3904
+##                                                                      angle.Z.gravityMean.
+## Original Var. Name:                                                  angle(Z,gravityMean)
+## Description:          Mean of Subject x Activity measurements of the above-named variable
+## Data Type:                                                                        Numeric
+## .                                                                       Min.   :-0.8736  
+## ..                                                                      Max.   : 0.3904
 ```
 Appendix
 ========
